@@ -20,6 +20,7 @@ public class Appointment {
     private String description;
     private boolean confirmed;
 
+   /* This is appointment*/
     @ManyToOne
     @JoinColumn(name = "user_id")
     private User user;
